@@ -1,0 +1,20 @@
+Jan 11 14:32:08.750 HYPERVISOR: Release 0.2.17-x86/Windows (tag 2017072410)
+Jan 11 14:32:08.751 HYPERVISOR: Started on IP = localhost, TCP port = 50854.
+Jan 11 14:32:09.246 HYPERVISOR: exec_cmd: hypervisor version 
+Jan 11 14:32:09.246 HYPERVISOR: exec_cmd: hypervisor working_dir C:\Users\migoz\GNS3\projects\untitled\project-files\dynamips 
+Jan 11 14:32:09.246 GENERAL: working_dir=C:\Users\migoz\GNS3\projects\untitled\project-files\dynamips
+Jan 11 14:32:09.247 HYPERVISOR: exec_cmd: ethsw create Switch1 
+Jan 11 14:58:22.404 HYPERVISOR: exec_cmd: nio create_udp udp-d876ecdf-86a1-4a19-abae-c7c2067cf8eb 10025 127.0.0.1 10024 
+Jan 11 14:58:22.406 HYPERVISOR: exec_cmd: ethsw add_nio Switch1 udp-d876ecdf-86a1-4a19-abae-c7c2067cf8eb 
+Jan 11 14:58:22.413 HYPERVISOR: exec_cmd: ethsw set_access_port Switch1 udp-d876ecdf-86a1-4a19-abae-c7c2067cf8eb 1 
+Jan 11 15:00:23.983 HYPERVISOR: exec_cmd: nio create_udp udp-1909611a-8a89-4740-b0c1-2a1a38cc33ab 10044 127.0.0.1 10045 
+Jan 11 15:00:23.983 HYPERVISOR: exec_cmd: ethsw add_nio Switch1 udp-1909611a-8a89-4740-b0c1-2a1a38cc33ab 
+Jan 11 15:00:24.003 HYPERVISOR: exec_cmd: ethsw set_access_port Switch1 udp-1909611a-8a89-4740-b0c1-2a1a38cc33ab 1 
+Jan 11 15:00:29.275 HYPERVISOR: exec_cmd: nio create_udp udp-8a3c61f4-57d1-4dfa-827a-faee43f6d7df 10046 127.0.0.1 10047 
+Jan 11 15:00:29.275 HYPERVISOR: exec_cmd: ethsw add_nio Switch1 udp-8a3c61f4-57d1-4dfa-827a-faee43f6d7df 
+Jan 11 15:00:29.292 HYPERVISOR: exec_cmd: ethsw set_access_port Switch1 udp-8a3c61f4-57d1-4dfa-827a-faee43f6d7df 1 
+Jan 11 15:28:12.703 HYPERVISOR: exec_cmd: ethsw remove_nio Switch1 udp-1909611a-8a89-4740-b0c1-2a1a38cc33ab 
+Jan 11 15:28:12.731 HYPERVISOR: exec_cmd: nio delete udp-1909611a-8a89-4740-b0c1-2a1a38cc33ab 
+Jan 11 15:28:26.569 HYPERVISOR: exec_cmd: nio create_udp udp-b037fb5e-8358-4e53-8416-40f6e4b8190b 10044 127.0.0.1 10045 
+Jan 11 15:28:26.570 HYPERVISOR: exec_cmd: ethsw add_nio Switch1 udp-b037fb5e-8358-4e53-8416-40f6e4b8190b 
+Jan 11 15:28:26.585 HYPERVISOR: exec_cmd: ethsw set_access_port Switch1 udp-b037fb5e-8358-4e53-8416-40f6e4b8190b 1 
